@@ -1,6 +1,6 @@
 name: gql_phoenix_link_2
 description: A graphql link using phoenix sockets
-version: 0.5.0
+version: 0.5.1
 homepage: https://github.com/redDwarf03/gql_phoenix_link.git
 
 environment:
@@ -11,10 +11,10 @@ dependencies:
   phoenix_socket: ^0.5.3
 
   # Basis for GraphQL execution layer to support Link and Client.
-  gql_exec: ^0.4.0
+  gql_exec: ^0.3.0
 
   # A simple and modular AST-based GraphQL request execution interface.
-  gql_link: ^0.4.2
+  gql_link: ^0.4.0
 
 dev_dependencies:
   # Recommended lints for Flutter apps, packages, and plugins to encourage good coding practices.
