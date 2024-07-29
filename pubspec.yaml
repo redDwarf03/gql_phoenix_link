@@ -8,7 +8,11 @@ environment:
 
 dependencies:
   # PhoenixSocket provides a feature-complete implementation of Phoenix Sockets, using a single API based on StreamChannels compatible with any deployment of Flutter.
-  phoenix_socket: ^0.7.4
+  # phoenix_socket: ^0.7.4
+  phoenix_socket: 
+    git:
+      url: https://github.com/Neelansh-ns/phoenix-socket-dart.git
+      ref: 60820dcd7de651cf2b7429825f8fad869e9b3789
   # Basis for GraphQL execution layer to support Link and Client.
   gql_exec: ^1.0.0+1
 
